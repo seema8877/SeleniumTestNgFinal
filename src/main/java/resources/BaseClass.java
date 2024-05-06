@@ -45,4 +45,9 @@ public class BaseClass {
 		driver.get(prop.getProperty("Url"));
 	}
 
+	public static String screenShot(WebDriver driver2, String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-28T14:19:04 IST" name="Suite" finished-at="2024-04-28T14:19:05 IST" duration-ms="176">
+  <suite started-at="2024-04-29T10:32:39 IST" name="Suite" finished-at="2024-04-29T10:32:39 IST" duration-ms="171">
     <groups>
     </groups>
-    <test started-at="2024-04-28T14:19:04 IST" name="Test" finished-at="2024-04-28T14:19:05 IST" duration-ms="176">
+    <test started-at="2024-04-29T10:32:39 IST" name="Test" finished-at="2024-04-29T10:32:39 IST" duration-ms="171">
       <class name="testcases.VerifyLoginTestCase">
-        <test-method is-config="true" signature="launchBrowserAndUrl()[pri:0, instance:testcases.VerifyLoginTestCase@1a6d8329]" started-at="2024-04-28T14:19:04 IST" name="launchBrowserAndUrl" finished-at="2024-04-28T14:19:04 IST" duration-ms="1" status="FAIL">
+        <test-method is-config="true" signature="launchBrowserAndUrl()[pri:0, instance:testcases.VerifyLoginTestCase@2e385cce]" started-at="2024-04-29T10:32:39 IST" name="launchBrowserAndUrl" finished-at="2024-04-29T10:32:39 IST" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browserName" is null]]>
@@ -54,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowserAndUrl -->
-        <test-method signature="VerifyLoginWithInValidData()[pri:0, instance:testcases.VerifyLoginTestCase@1a6d8329]" started-at="2024-04-28T14:19:04 IST" name="VerifyLoginWithInValidData" finished-at="2024-04-28T14:19:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="VerifyLoginWithInValidData()[pri:0, instance:testcases.VerifyLoginTestCase@2e385cce]" started-at="2024-04-29T10:32:39 IST" name="VerifyLoginWithInValidData" finished-at="2024-04-29T10:32:39 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browserName" is null]]>
@@ -101,11 +101,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoginWithInValidData -->
-        <test-method is-config="true" signature="launchBrowserAndUrl()[pri:0, instance:testcases.VerifyLoginTestCase@1a6d8329]" started-at="2024-04-28T14:19:04 IST" name="launchBrowserAndUrl" finished-at="2024-04-28T14:19:04 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="launchBrowserAndUrl()[pri:0, instance:testcases.VerifyLoginTestCase@2e385cce]" started-at="2024-04-29T10:32:39 IST" name="launchBrowserAndUrl" finished-at="2024-04-29T10:32:39 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowserAndUrl -->
-        <test-method signature="VerifyLoginWithValidData()[pri:0, instance:testcases.VerifyLoginTestCase@1a6d8329]" started-at="2024-04-28T14:19:04 IST" name="VerifyLoginWithValidData" finished-at="2024-04-28T14:19:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="VerifyLoginWithValidData()[pri:0, instance:testcases.VerifyLoginTestCase@2e385cce]" started-at="2024-04-29T10:32:39 IST" name="VerifyLoginWithValidData" finished-at="2024-04-29T10:32:39 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browserName" is null]]>
@@ -154,7 +154,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- VerifyLoginWithValidData -->
       </class> <!-- testcases.VerifyLoginTestCase -->
       <class name="testcases.VerifyRegistrationTestCases">
-        <test-method is-config="true" signature="launchBrowserAndUrl()[pri:0, instance:testcases.VerifyRegistrationTestCases@48aca48b]" started-at="2024-04-28T14:19:04 IST" name="launchBrowserAndUrl" finished-at="2024-04-28T14:19:04 IST" duration-ms="11" status="FAIL">
+        <test-method is-config="true" signature="launchBrowserAndUrl()[pri:0, instance:testcases.VerifyRegistrationTestCases@771a660]" started-at="2024-04-29T10:32:39 IST" name="launchBrowserAndUrl" finished-at="2024-04-29T10:32:39 IST" duration-ms="14" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browserName" is null]]>
@@ -201,7 +201,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowserAndUrl -->
-        <test-method signature="VerifyRegistrationWithInValidData()[pri:0, instance:testcases.VerifyRegistrationTestCases@48aca48b]" started-at="2024-04-28T14:19:04 IST" name="VerifyRegistrationWithInValidData" finished-at="2024-04-28T14:19:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="VerifyRegistrationWithInValidData()[pri:0, instance:testcases.VerifyRegistrationTestCases@771a660]" started-at="2024-04-29T10:32:39 IST" name="VerifyRegistrationWithInValidData" finished-at="2024-04-29T10:32:39 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browserName" is null]]>
@@ -248,11 +248,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyRegistrationWithInValidData -->
-        <test-method is-config="true" signature="launchBrowserAndUrl()[pri:0, instance:testcases.VerifyRegistrationTestCases@48aca48b]" started-at="2024-04-28T14:19:04 IST" name="launchBrowserAndUrl" finished-at="2024-04-28T14:19:04 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="launchBrowserAndUrl()[pri:0, instance:testcases.VerifyRegistrationTestCases@771a660]" started-at="2024-04-29T10:32:39 IST" name="launchBrowserAndUrl" finished-at="2024-04-29T10:32:39 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowserAndUrl -->
-        <test-method signature="verifyRegisterationWithValidData()[pri:0, instance:testcases.VerifyRegistrationTestCases@48aca48b]" started-at="2024-04-28T14:19:04 IST" name="verifyRegisterationWithValidData" finished-at="2024-04-28T14:19:04 IST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyRegisterationWithValidData()[pri:0, instance:testcases.VerifyRegistrationTestCases@771a660]" started-at="2024-04-29T10:32:39 IST" name="verifyRegisterationWithValidData" finished-at="2024-04-29T10:32:39 IST" duration-ms="1" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "browserName" is null]]>

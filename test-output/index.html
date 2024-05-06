@@ -136,40 +136,6 @@
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">testcases.VerifyRegistrationTestCases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyRegistrationWithInValidData">
-                  </a> <!-- VerifyRegistrationWithInValidData -->
-                  <span class="method-name">VerifyRegistrationWithInValidData</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
-	at resources.BaseClass.driverInitilization(BaseClass.java:27)
-	at resources.BaseClass.launchBrowserAndUrl(BaseClass.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRegisterationWithValidData">
-                  </a> <!-- verifyRegisterationWithValidData -->
-                  <span class="method-name">verifyRegisterationWithValidData</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
-	at resources.BaseClass.driverInitilization(BaseClass.java:27)
-	at resources.BaseClass.launchBrowserAndUrl(BaseClass.java:44)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
               <span class="class-name">testcases.VerifyLoginTestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -191,6 +157,40 @@
                   <a name="VerifyLoginWithValidData">
                   </a> <!-- VerifyLoginWithValidData -->
                   <span class="method-name">VerifyLoginWithValidData</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.BaseClass.driverInitilization(BaseClass.java:27)
+	at resources.BaseClass.launchBrowserAndUrl(BaseClass.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.VerifyRegistrationTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyRegistrationWithInValidData">
+                  </a> <!-- VerifyRegistrationWithInValidData -->
+                  <span class="method-name">VerifyRegistrationWithInValidData</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
+	at resources.BaseClass.driverInitilization(BaseClass.java:27)
+	at resources.BaseClass.launchBrowserAndUrl(BaseClass.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterationWithValidData">
+                  </a> <!-- verifyRegisterationWithValidData -->
+                  <span class="method-name">verifyRegisterationWithValidData</span>
                   <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browserName&quot; is null
 	at resources.BaseClass.driverInitilization(BaseClass.java:27)
 	at resources.BaseClass.launchBrowserAndUrl(BaseClass.java:44)
@@ -256,26 +256,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifyRegistrationWithInValidData')
+data.setCell(0, 1, 'verifyRegisterationWithValidData')
 data.setCell(0, 2, 'testcases.VerifyRegistrationTestCases')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 1);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyRegisterationWithValidData')
+data.setCell(1, 1, 'VerifyRegistrationWithInValidData')
 data.setCell(1, 2, 'testcases.VerifyRegistrationTestCases')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifyLoginWithValidData')
+data.setCell(2, 1, 'VerifyLoginWithInValidData')
 data.setCell(2, 2, 'testcases.VerifyLoginTestCase')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyLoginWithInValidData')
+data.setCell(3, 1, 'VerifyLoginWithValidData')
 data.setCell(3, 2, 'testcases.VerifyLoginTestCase')
 data.setCell(3, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 1 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -310,7 +310,7 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowserAndUrl</span>
-                <span class="method-start">39 ms</span>
+                <span class="method-start">37 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -319,11 +319,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">launchBrowserAndUrl</span>
-                <span class="method-start">65 ms</span>
+                <span class="method-start">58 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowserAndUrl</span>
-                <span class="method-start">84 ms</span>
+                <span class="method-start">97 ms</span>
               </div> <!-- configuration-method before -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
