@@ -27,9 +27,9 @@ public void onTestFailure(ITestResult result) {
 test.log(Status.FAIL, "Test CASE Failed is " + result.getName());
 test.log(Status.FAIL, "Test CASE Failed is " + result.getThrowable()); //To throw excpetion
  
-   String screenshotPath =BaseClass.screenShot(BaseClass.driver, result.getName());
+  // String screenshotPath =BaseClass.screenShot(BaseClass.driver, result.getName());
  
-   test.addScreenCaptureFromPath(screenshotPath); //Adding screenshot inside report//To add name in extent report
+  // test.addScreenCaptureFromPath(screenshotPath); //Adding screenshot inside report//To add name in extent report
 }
 }
   

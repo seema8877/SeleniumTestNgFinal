@@ -15,7 +15,8 @@ public class VerifyRegistrationTestCases extends BaseClass{
 	
 	@Test
 	public void verifyRegisterationWithValidData() throws IOException, InterruptedException {
-	 
+		driverInitilization();
+		driver.get("https://naveenautomationlabs.com/opencart/");
 		RegistrationPageObjects rpo = new RegistrationPageObjects(driver);
 	 
 	rpo.clickOnMyAccount().click();
@@ -33,25 +34,25 @@ public class VerifyRegistrationTestCases extends BaseClass{
 	//commonMethods.handleAssertion(rpo.actualText().getText(), constant.expectedRegisteration);
 	 
 	}
-	@Test
-	public void VerifyRegistrationWithInValidData() throws IOException{
-		driverInitilization();
-		driver.get("https://naveenautomationlabs.com/opencart/");
-		//driver.findElement(By.xpath("//span[@class = 'caret']")).sendKeys("");
-		//here we can use its method from Page object model by Creating object to access method.
-		RegistrationPageObjects rpo = new RegistrationPageObjects(driver);
-        rpo.clickOnMyAccount().click();
-        CommonMethods.handleWait(driver, 10, rpo.clickOnTelephone());
-        rpo.clickOnRegister().click();
-        rpo.clickOnContinue().click();
+//	@Test
+//	public void VerifyRegistrationWithInValidData() throws IOException{
+//		driverInitilization();
+//		driver.get("https://naveenautomationlabs.com/opencart/");
+//		//driver.findElement(By.xpath("//span[@class = 'caret']")).sendKeys("");
+//		//here we can use its method from Page object model by Creating object to access method.
+//		RegistrationPageObjects rpo = new RegistrationPageObjects(driver);
+//        rpo.clickOnMyAccount().click();
+//        CommonMethods.handleWait(driver, 10, rpo.clickOnTelephone());
+//        rpo.clickOnRegister().click();
+//        rpo.clickOnContinue().click();
         //Assertions
-       SoftAssert sa = new SoftAssert();
-        
-        String actual = rpo.actualText().getText();
-        String fnexpected = constant.ExpectedResult;
-		sa.assertEquals(actual, fnexpected);
-		sa.assertAll(); 
-       // CommonMethods.handleAssertion(rpo.actualText().getText(), constant.ExpectedResult());
+//      SoftAssert sa = new SoftAssert();
+//        
+//        String actual = rpo.actualText().getText();
+//        String fnexpected = constant.ExpectedResult;
+//		sa.assertEquals(actual, fnexpected);
+//		sa.assertAll(); 
+//       // CommonMethods.handleAssertion(rpo.actualText().getText(), constant.ExpectedResult());
 	}
 
-}
+

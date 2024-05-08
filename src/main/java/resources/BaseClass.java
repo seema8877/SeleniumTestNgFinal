@@ -37,17 +37,17 @@ public class BaseClass {
 
 	public static String generateRandomEmailID() {
 		return "abc" + System.currentTimeMillis() + "@gmail.com";
-	}
-	@BeforeMethod
-	public void launchBrowserAndUrl() throws IOException
-	{
-		driverInitilization();
-		driver.get(prop.getProperty("Url"));
+//	}
+//	@BeforeMethod
+//	public void launchBrowserAndUrl() throws IOException
+//	{
+//		driverInitilization();
+//		driver.get(prop.getProperty("Url"));
+//	}
+//
+//	public static String screenShot(WebDriver driver2, String name) {
+//		// TODO Auto-generated method stub
+//		return null;
 	}
 
-	public static String screenShot(WebDriver driver2, String name) {
-		// TODO Auto-generated method stub
-		return null;
 	}
-
-}

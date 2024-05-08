@@ -66,10 +66,10 @@ public class RegistrationPageObjects {
 	{
 		return driver.findElement(Continue);
 	}
-	public WebElement actualText()
-	{
-		return driver.findElement(actual);
-	}
+//	public WebElement actualText()
+//	{
+//		return driver.findElement(actual);
+//	}
 	
 		
 			

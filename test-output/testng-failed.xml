@@ -3,20 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.VerifyLoginTestCase">
-        <methods>
-          <include name="launchBrowserAndUrl"/>
-          <include name="VerifyLoginWithValidData"/>
-          <include name="VerifyLoginWithInValidData"/>
-        </methods>
-      </class> <!-- testcases.VerifyLoginTestCase -->
       <class name="testcases.VerifyRegistrationTestCases">
         <methods>
-          <include name="VerifyRegistrationWithInValidData"/>
           <include name="verifyRegisterationWithValidData"/>
-          <include name="launchBrowserAndUrl"/>
         </methods>
       </class> <!-- testcases.VerifyRegistrationTestCases -->
+      <class name="testcases.VerifyLoginTestCase">
+        <methods>
+          <include name="VerifyLoginWithValidData"/>
+        </methods>
+      </class> <!-- testcases.VerifyLoginTestCase -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
